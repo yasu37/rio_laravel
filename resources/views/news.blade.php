@@ -24,7 +24,6 @@
   <x-header></x-header>
   <main>
     <x-news></x-news>
-    <x-accordion></x-accordion>
   </main>
   <x-footer></x-footer>
 </body>
