@@ -25,7 +25,7 @@
   <x-menu.header></x-menu.header>
   <main>
     <x-menu.menu_list></x-menu.menu_list>
-    <x-menu.menu_explanation></x-menu.menu_explanation>
+    <x-menu.menu_overview></x-menu.menu_overview>
     <x-accordion>
       <x-slot name="menu_name">◆ 美容鍼灸 70分</x-slot>
       <x-slot name="menu_concept">【美容鍼灸を試してみたい方におすすめ】</x-slot>

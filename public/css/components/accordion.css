@@ -72,3 +72,25 @@ details .content {
 details .content p {
   margin-top: 1rem;
 }
+
+.frame {
+  border: 1px solid rgba(19, 15, 7, .1);
+}
+
+.frame_name {
+  padding: 1rem;
+  color: rgba(19, 15, 7, .4);
+  text-align: center;
+  font-weight: 600;
+}
+
+.frame_content {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-top: 1px solid rgba(19, 15, 7, .1);
+}
+
+.price {
+  margin-left: auto;
+}
