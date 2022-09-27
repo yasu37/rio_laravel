@@ -1,5 +1,4 @@
-/*メニュー1*/
-/* ~ 美容鍼灸 ~ */
+/*メニュー1 ~美容鍼灸~ */
 
 body {
   background: #f4f6f4;
@@ -8,17 +7,21 @@ body {
 
 main {
   max-width: 100%;
-  margin-left: auto;
+  margin: 0 auto 15rem;
   margin-right: auto;
   padding: 5rem 0 0 0;
   position: relative;
-  margin-bottom: 15rem;
-}
-
-main {
   padding-top: 5rem;
 }
 
+/*サイトの横幅が781px以上*/
+@media screen and (min-width: 781px) {
+  main {
+    padding-top: 10rem;
+  }
+}
+
+/* メニューリスト */
 #menu_list {
   padding: 0;
 }
@@ -39,65 +42,6 @@ main {
   justify-content: space-around;
   padding-left: 0;
   list-style: none;
-}
-
-#menu_container {
-  max-width: 900px;
-}
-
-#menu_container .course {
-  margin-top: 5rem;
-  text-align: left;
-  padding: 0 4rem;
-}
-
-#menu_container .course_cell {
-  margin-bottom: 2rem;
-  padding-top: 0;
-  padding-bottom: 1.5rem;
-  border-bottom: solid 1px #ccc;
-  list-style: none;
-}
-
-#menu_container .course_cell .course_price {
-  font-size: 2.5rem;
-}
-
-#menu_container .section_tit {
-  margin-top: 10rem;
-  margin-bottom: 5rem;
-  font-size: 4rem;
-  letter-spacing: 3rem;
-  color: #DDBC5F;
-}
-
-#menu_container .course_name {
-  font-size: 3rem;
-  letter-spacing: 0.6rem;
-}
-
-#menu_container .course_name span {
-  font-size: 2.5rem;
-  letter-spacing: 0.4rem;
-}
-
-#menu_container .course_price {
-  color: #008475;
-  font-size: 2.3rem;
-  letter-spacing: 1px;
-  text-align: right;
-}
-
-#menu_container .course_price span {
-  font-size: 1.3rem;
-  letter-spacing: 0.5px;
-}
-
-
-#menu_container .course_detail {
-  margin-left: 3.5rem;
-  list-style: none;
-  font-size: 2.5rem;
 }
 
 #menu_list .menu_course li {
@@ -122,161 +66,18 @@ main {
   border-radius: 0.3rem;
 }
 
-#menu_container .container {
-  display: flex;
-  align-items: flex-end;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-#menu_container .menu_img {
-  width: 50%;
-  width: 47%;
-}
-
-#menu_container .right_cont {
-  width: 48%;
-}
-
-#menu_container .section_tit h2 {
-  font-size: 2.7rem;
-  letter-spacing: 1rem;
-}
-
-#menu_container .section_tit p {
-  font-size: 1.2rem;
-  letter-spacing: 0.4rem;
-}
-
-#menu_container .txt_area {
-  text-align: left;
-  padding: 1rem 3rem;
-  border-radius: 0.2rem;
-  background: #ebffeb;
-  background: #CCE6E3;
-  font-family: "Noto Sans Japanese", "メイリオ", Meiryo, sans-serif;
-}
-
-#menu_container .button5 a {
-  width: auto;
-  margin-top: 1rem;
-  justify-content: center;
-  color: #fff;
-  background-color: #008475;
-  background-color: #4CA89E;
-  padding: 1.5rem 0;
-}
-
-/*サイトの横幅が781px以上*/
-@media screen and (min-width: 781px) {
-  main {
-    padding-top: 10rem;
-  }
-}
-
-/*サイトの横幅が780px以下*/
 @media screen and (max-width: 780px) {
-
   #menu_list {
     padding-top: 0;
   }
-
-  #menu_container .section_tit {
-    font-size: 3rem;
-    letter-spacing: 2rem;
-  }
-
-  #menu_container .txt_area {
-    font-size: 1.2rem;
-    line-height: 2rem;
-    padding: 1rem;
-  }
-
-  #menu_container .course_name {
-    font-size: 2.8rem;
-  }
-
-  #menu_container .course_name span {
-    font-size: 2.2rem;
-  }
-
-  #menu_container .course_cell .course_price {
-    font-size: 2.3rem;
-  }
-
-  #menu_container .course_price span {
-    font-size: 1.1rem;
-  }
-
-
-  #menu_container .course_detail {
-    margin-left: 3.3rem;
-    font-size: 2.2rem;
-  }
-
 }
 
-/*サイトの横幅が600px以下*/
 @media screen and (max-width: 600px) {
-
   #menu_list {
     padding-top: 2rem;
   }
-
-  #menu_container .section_tit {
-    margin-top: 5rem;
-    margin-bottom: 3rem;
-    font-size: 2.5rem;
-    letter-spacing: 1rem;
-  }
-
-  #menu_container .menu_img {
-    width: 85%;
-  }
-
-  #menu_container .right_cont {
-    width: 85%;
-  }
-
-  #menu_container .txt_area {
-    padding: 1rem 2rem;
-    margin-top: 1rem;
-  }
-
-  #menu_container .course {
-    padding: 0 3rem;
-  }
-
-  #menu_container .course_name {
-    font-size: 2.5rem;
-    letter-spacing: 0.2rem;
-  }
-
-  #menu_container .course_name span {
-    font-size: 2rem;
-    letter-spacing: 0.2rem;
-  }
-
-  #menu_container .course_cell .course_price {
-    font-size: 2rem;
-  }
-
-  #menu_container .course_cell .course_price span {
-    font-size: 1rem;
-  }
-
-  #menu_container .course_detail {
-    margin-left: 3rem;
-    font-size: 1.8rem;
-  }
-
-  #menu_container .button5 a {
-    padding: 1rem 0;
-  }
-
 }
 
-/*サイトの横幅が450px以下*/
 @media screen and (max-width: 450px) {
 
   #menu_list .menu_course {
@@ -287,86 +88,15 @@ main {
   #menu_list .menu_course li {
     height: 45px;
   }
-
-  #menu_container .course {
-    padding: 0 2rem;
-  }
-
-  #menu_container .course_name {
-    font-size: 1.6rem;
-  }
-
-  #menu_container .course_name span {
-    font-size: 1.5rem;
-  }
-
-  #menu_container .course_cell .course_price {
-    font-size: 1.4rem;
-  }
-
-  #menu_container .course_cell .course_price span {
-    font-size: 1rem;
-  }
-
-  #menu_container .course_detail {
-    margin-left: 2.5rem;
-    font-size: 1.1rem;
-  }
-
-  #menu_container .button5 a {
-    font-size: 1.4rem;
-  }
-
 }
 
-/*サイトの横幅が395px以下*/
-@media screen and (max-width: 395px) {
-  #menu_container .course_detail {
-    font-size: 1rem;
-  }
-}
-
-
-/*サイトの横幅が380px以下*/
 @media screen and (max-width: 380px) {
 
   #menu_list .menu_course li {
     height: 40px;
   }
-
-  #menu_container .txt_area {
-    font-size: 1rem;
-    line-height: 1.6rem;
-  }
-
-  #menu_container .course {
-    padding: 0 1.5rem;
-  }
-
-  #menu_container .course_name {
-    font-size: 1.5rem;
-    letter-spacing: 0.1rem;
-  }
-
-  #menu_container .course_name span {
-    font-size: 1.4rem;
-  }
-
-  #menu_container .course_cell .course_price {
-    font-size: 1.3rem;
-  }
-
-  #menu_container .course_cell .course_price span {
-    font-size: 0.9rem;
-  }
-
-  #menu_container .course_detail {
-    margin-left: 2rem;
-  }
-
 }
 
-/*サイトの横幅が330px以下*/
 @media screen and (max-width: 330px) {
 
   #menu_list .menu_course {
@@ -376,30 +106,277 @@ main {
   #menu_list .menu_course li {
     height: 38px;
   }
+}
 
-  #menu_container .course_name {
+/* メニュー概要 */
+#menu_overview {
+  max-width: 900px;
+}
+
+#menu_overview .course {
+  margin-top: 5rem;
+  text-align: left;
+  padding: 0 4rem;
+}
+
+#menu_overview .course_cell {
+  margin-bottom: 2rem;
+  padding-top: 0;
+  padding-bottom: 1.5rem;
+  border-bottom: solid 1px #ccc;
+  list-style: none;
+}
+
+#menu_overview .course_cell .course_price {
+  font-size: 2.5rem;
+}
+
+#menu_overview .course_name {
+  font-size: 3rem;
+  letter-spacing: 0.6rem;
+}
+
+#menu_overview .course_name span {
+  font-size: 2.5rem;
+  letter-spacing: 0.4rem;
+}
+
+#menu_overview .course_price {
+  color: #008475;
+  font-size: 2.3rem;
+  letter-spacing: 1px;
+  text-align: right;
+}
+
+#menu_overview .course_price span {
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+}
+
+
+#menu_overview .course_detail {
+  margin-left: 3.5rem;
+  list-style: none;
+  font-size: 2.5rem;
+}
+
+#menu_overview .container {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#menu_overview .menu_img {
+  width: 50%;
+  width: 47%;
+}
+
+#menu_overview .right_cont {
+  width: 48%;
+}
+
+#menu_overview .txt_area {
+  text-align: left;
+  padding: 1rem 3rem;
+  border-radius: 0.2rem;
+  background: #ebffeb;
+  background: #CCE6E3;
+  font-family: "Noto Sans Japanese", "メイリオ", Meiryo, sans-serif;
+}
+
+#menu_overview .button5 a {
+  width: auto;
+  margin-top: 1rem;
+  justify-content: center;
+  color: #fff;
+  background-color: #008475;
+  background-color: #4CA89E;
+  padding: 1.5rem 0;
+}
+
+
+/*サイトの横幅が780px以下*/
+@media screen and (max-width: 780px) {
+
+  #menu_overview .txt_area {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding: 1rem;
+  }
+
+  #menu_overview .course_name {
+    font-size: 2.8rem;
+  }
+
+  #menu_overview .course_name span {
+    font-size: 2.2rem;
+  }
+
+  #menu_overview .course_cell .course_price {
+    font-size: 2.3rem;
+  }
+
+  #menu_overview .course_price span {
+    font-size: 1.1rem;
+  }
+
+
+  #menu_overview .course_detail {
+    margin-left: 3.3rem;
+    font-size: 2.2rem;
+  }
+
+}
+
+/*サイトの横幅が600px以下*/
+@media screen and (max-width: 600px) {
+
+  #menu_overview .menu_img {
+    width: 85%;
+  }
+
+  #menu_overview .right_cont {
+    width: 85%;
+  }
+
+  #menu_overview .txt_area {
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+  }
+
+  #menu_overview .course {
+    padding: 0 3rem;
+  }
+
+  #menu_overview .course_name {
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+  }
+
+  #menu_overview .course_name span {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+  }
+
+  #menu_overview .course_cell .course_price {
+    font-size: 2rem;
+  }
+
+  #menu_overview .course_cell .course_price span {
+    font-size: 1rem;
+  }
+
+  #menu_overview .course_detail {
+    margin-left: 3rem;
+    font-size: 1.8rem;
+  }
+
+  #menu_overview .button5 a {
+    padding: 1rem 0;
+  }
+
+}
+
+/*サイトの横幅が450px以下*/
+@media screen and (max-width: 450px) {
+
+  #menu_overview .course {
+    padding: 0 2rem;
+  }
+
+  #menu_overview .course_name {
+    font-size: 1.6rem;
+  }
+
+  #menu_overview .course_name span {
+    font-size: 1.5rem;
+  }
+
+  #menu_overview .course_cell .course_price {
+    font-size: 1.4rem;
+  }
+
+  #menu_overview .course_cell .course_price span {
+    font-size: 1rem;
+  }
+
+  #menu_overview .course_detail {
+    margin-left: 2.5rem;
+    font-size: 1.1rem;
+  }
+
+  #menu_overview .button5 a {
+    font-size: 1.4rem;
+  }
+
+}
+
+/*サイトの横幅が395px以下*/
+@media screen and (max-width: 395px) {
+  #menu_overview .course_detail {
+    font-size: 1rem;
+  }
+}
+
+
+/*サイトの横幅が380px以下*/
+@media screen and (max-width: 380px) {
+
+  #menu_overview .txt_area {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+
+  #menu_overview .course {
+    padding: 0 1.5rem;
+  }
+
+  #menu_overview .course_name {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+
+  #menu_overview .course_name span {
+    font-size: 1.4rem;
+  }
+
+  #menu_overview .course_cell .course_price {
+    font-size: 1.3rem;
+  }
+
+  #menu_overview .course_cell .course_price span {
+    font-size: 0.9rem;
+  }
+
+  #menu_overview .course_detail {
+    margin-left: 2rem;
+  }
+
+}
+
+/*サイトの横幅が330px以下*/
+@media screen and (max-width: 330px) {
+
+  #menu_overview .course_name {
     font-size: 1.4rem;
     letter-spacing: 0.1rem;
   }
 
-  #menu_container .course_name span {
+  #menu_overview .course_name span {
     font-size: 1.3rem;
   }
 
-  #menu_container .course_cell .course_price {
+  #menu_overview .course_cell .course_price {
     font-size: 1.2rem;
   }
 
-  #menu_container .course_cell .course_price span {
+  #menu_overview .course_cell .course_price span {
     font-size: 0.8rem;
   }
 
-  #menu_container .course_detail {
+  #menu_overview .course_detail {
     margin-left: 1rem;
-  }
-
-  .section_title p {
-    letter-spacing: 0.2rem;
   }
 
 }
