@@ -31,7 +31,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  max-width: 1024px;
+  max-width: 950px;
 }
 
 #menu_list .menu_course ul {
@@ -76,12 +76,16 @@ main {
   #menu_list {
     padding-top: 2rem;
   }
+
+  #menu_list .menu_course {
+    font-size: 1.3rem;
+  }
 }
 
 @media screen and (max-width: 450px) {
 
   #menu_list .menu_course {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 1.2;
   }
 
@@ -91,6 +95,9 @@ main {
 }
 
 @media screen and (max-width: 380px) {
+  #menu_list .menu_course {
+    font-size: 1rem;
+  }
 
   #menu_list .menu_course li {
     height: 40px;
@@ -99,59 +106,58 @@ main {
 
 @media screen and (max-width: 330px) {
 
-  #menu_list .menu_course {
-    font-size: 1.2rem;
-  }
-
   #menu_list .menu_course li {
     height: 38px;
   }
 }
 
 /* メニュー概要 */
-#menu_overview {
+.menu_overview {
   max-width: 900px;
+  padding: 0;
 }
 
-#menu_overview .container {
+.menu_overview .container {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-#menu_overview .menu_overview_left,
-#menu_overview .menu_overview_right {
-  width: 46%;
+.menu_overview .menu_overview_left,
+.menu_overview .menu_overview_right {
+  width: 50%;
 }
 
-#menu_overview .menu_overview_right h3 {
+.menu_overview .menu_overview_right h2 {
   text-align: center;
+  font-size: 1.6rem;
 }
 
-#menu_overview .text_area {
+.menu_overview .text_area {
   text-align: left;
   padding: 1rem 2rem;
   border-radius: 0.2rem;
   background: #CCE6E3;
 }
 
-#menu_overview .button5 a {
-  width: auto;
+.menu_overview .text_area p {
+  font-size: 1.4rem;
   margin-top: 1rem;
-  justify-content: center;
-  color: #fff;
-  background-color: #4CA89E;
-  padding: 1.5rem 0;
 }
 
 /*サイトの横幅が600px以下*/
 @media screen and (max-width: 600px) {
 
-  #menu_overview .menu_overview_left,
-  #menu_overview .menu_overview_right {
+  .menu_overview .menu_overview_left,
+  .menu_overview .menu_overview_right {
     width: 80%;
     margin: 1rem auto;
   }
 
+}
+
+.menu_course {
+  margin-top: 5rem;
+  padding: 0;
 }

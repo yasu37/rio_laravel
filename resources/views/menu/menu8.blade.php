@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="../css/header.css">
   <link rel="stylesheet" href="../css/footer.css">
   <link rel="stylesheet" href="../css/menu/menu.css">
-  <title>水戸市の美容鍼灸-RIO鍼灸サロン-</title>
+  <link rel="stylesheet" href="../css/components/accordion.css">
+  <title>タイ式マッサージメニュー|リオ鍼灸サロン-茨城県水戸市の美容鍼＆エステ＆マッサージ-</title>
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({
@@ -23,6 +24,13 @@
   <x-menu.header></x-menu.header>
   <main>
     <x-menu.menu_list></x-menu.menu_list>
+    <x-menu.menu_overview>
+      <x-slot name="menu_name">タイ古式マッサージ</x-slot>
+      <x-slot name="image_src">"../img/course22.jpg"</x-slot>
+      <x-slot name="image_alt">"タイ式マッサージの施術写真"</x-slot>
+      <x-slot name="menu_explanation">準備中です。</x-slot>
+      <x-slot name="menu_description"></x-slot>
+    </x-menu.menu_overview>
   </main>
   <x-menu.footer></x-menu.footer>
 </body>

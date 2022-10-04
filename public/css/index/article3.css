@@ -71,7 +71,8 @@
 
 #course .price {
   font-size: 1.8rem;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 0.5rem;
 }
 
 #course .button5 a {
@@ -81,11 +82,10 @@
 }
 
 #course .button_course a {
-  background: #B2DAD5;
   background: #99CDC7;
   width: auto;
-  padding: 1.2rem 0;
-  font-size: 2.3rem;
+  padding: 1rem 0;
+  font-size: 1.8rem;
 }
 
 /*サイトの横幅が780px以下*/

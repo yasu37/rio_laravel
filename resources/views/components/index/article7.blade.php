@@ -35,7 +35,7 @@
             <br><a href="" class="number_color">029-279-8639</a>
           </li>
           <div class="button5">
-            <a href="./inquiry">ご予約はこちら</a>
+            <a href="./reserve">ご予約はこちら</a>
           </div>
         </ul>
       </li>

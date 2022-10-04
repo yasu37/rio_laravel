@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="ceo_img">
-      <img src="./img/ceo_img.JPG" alt="院長の顔写真">
+      <img src="./img/ceo.jpg" alt="院長の顔写真">
     </div>
     <div class="list">
       <dl>
@@ -42,7 +42,7 @@
       </div>
     </div>
     <div class="ceo_img">
-      <img src="./img/manager2.JPG" alt="マネージャーの顔写真">
+      <img src="./img/manager2.jpg" alt="マネージャーの顔写真">
     </div>
     <div class="list">
       <dl>

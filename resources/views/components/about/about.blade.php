@@ -6,7 +6,7 @@
   <div>
     <div id="about1">
       <div class="about1_img">
-        <img src="./img/about_img.JPG" alt="カウンセリング途中の写真">
+        <img src="./img/about.jpg" alt="カウンセリング途中の写真">
       </div>
       <div class="content1">
         <p><span>リオ鍼灸サロンでは、筋肉、神経、リンパなどの</span>

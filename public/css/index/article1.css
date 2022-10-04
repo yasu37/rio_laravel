@@ -40,7 +40,7 @@ header .logo a img {
   width: 55%;
   margin-top: -4%;
   padding: 3rem;
-  padding: 2rem 5rem;
+  padding: 2rem 4rem;
   background: #e9f7eb;
   background: #B2DAD5;
   background: #99CDC7;
@@ -57,9 +57,9 @@ header .logo a img {
 }
 
 #concept .explanation p {
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 3rem;
-  letter-spacing: 1rem;
+  letter-spacing: 0.8rem;
   margin-right: -30px;
   text-align: left;
   margin-bottom: 1.5rem;
@@ -96,12 +96,11 @@ header .logo a img {
   }
 
   #concept .explanation h3 {
-    font-size: 4rem;
     letter-spacing: 0.8rem;
   }
 
   #concept .explanation p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 2.5rem;
     letter-spacing: 0.7rem;
   }
@@ -124,10 +123,6 @@ header .logo a img {
   #concept .explanation h3 {
     letter-spacing: 0.5rem;
   }
-
-  #concept .explanation p {
-    font-size: 1.6rem;
-  }
 }
 
 /*サイトの横幅が450px以下*/
@@ -135,7 +130,7 @@ header .logo a img {
 
   #concept .explanation p {
     letter-spacing: 0.4rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   #concept .button5 a {
@@ -157,7 +152,7 @@ header .logo a img {
 
   #concept .explanation h3 {
     font-size: 3rem;
-    letter-spacing: 0.6rem;
+    letter-spacing: 0.4rem;
   }
 
   #concept .button5 a {

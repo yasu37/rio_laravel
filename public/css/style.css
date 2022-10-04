@@ -107,8 +107,7 @@ html {
 
 section {
   max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding: 5rem 1.5rem 0;
 }
 
@@ -207,7 +206,7 @@ img {
 .button5 a {
   margin: auto;
   width: 214px;
-  padding: 14px 0px;
+  padding: 1rem 0px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -249,12 +248,16 @@ img {
   padding: 5rem 0;
 }
 
+.section_title h1 {
+  font-size: 3.5rem;
+  letter-spacing: 0.5rem;
+  color: #d4ab37;
+}
+
 .section_title h2 {
   font-size: 3.5rem;
   letter-spacing: 0.5rem;
-  font-weight: bold;
   color: #d4ab37;
-  line-height: 1.5;
 }
 
 .section_title p {

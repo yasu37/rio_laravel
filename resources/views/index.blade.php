@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="css/index/article5.css">
   <link rel="stylesheet" href="css/index/article6.css">
   <link rel="stylesheet" href="css/index/article7.css">
-  <title>水戸市の美容鍼灸-RIO鍼灸サロン-</title>
+  <title>リオ鍼灸サロン-茨城県水戸市の美容鍼＆エステ＆マッサージ-</title>
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({

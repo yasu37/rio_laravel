@@ -8,7 +8,7 @@
       <p class="ibanavi">＊WEBからのご予約は&ensp;<span>いばナビ</span>&ensp;をご利用ください。</p>
     </div>
     <div class="button5">
-      <a href="./inquiry">ご予約はこちら</a>
+      <a href="./reserve">ご予約はこちら</a>
     </div>
   </div>
 </section>

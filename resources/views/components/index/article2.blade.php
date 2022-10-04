@@ -3,7 +3,7 @@
 <section id="ceo">
   <div class="img">
     <div class="ceo_img">
-      <img src="img/ceo_img.JPG" alt="院長の顔写真">
+      <img src="img/ceo.jpg" alt="院長の顔写真">
     </div>
   </div>
   <div class="container">

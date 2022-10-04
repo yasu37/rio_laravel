@@ -1,8 +1,8 @@
 <header>
   <div>
     <!--ロゴ-->
-    <h1 class="logo logo1"><a href="../../index" target="_self"><img src="../img/logo1.jpg" alt="水戸市の美容鍼灸-RIO鍼灸サロン-"></a></h1>
-    <h2 class="logo logo2"><a href="../../index" target="_self"><img src="../img/logo2.jpg" alt="水戸市の美容鍼灸-RIO鍼灸サロン-"></a></h2>
+    <h1 class="logo logo1"><a href="../../" target="_self"><img src="../img/logo1.jpg" alt="水戸市の美容鍼灸-RIO鍼灸サロン-"></a></h1>
+    <h2 class="logo logo2"><a href="../../" target="_self"><img src="../img/logo2.jpg" alt="水戸市の美容鍼灸-RIO鍼灸サロン-"></a></h2>
     <!--内容-->
     <div class="content">
       <ul class="sns">
@@ -26,7 +26,7 @@
     <input type="checkbox" id="menu" class="pull_down">
     <nav class="header_menu">
       <ul class="navi">
-        <li><a href="../index" target="_self">トップ</a></li>
+        <li><a href="../" target="_self">トップ</a></li>
         <li class="is_pc">／</li>
         <li><a href="../about" target="_self">リオについて</a></li>
         <li class="is_pc">／</li>

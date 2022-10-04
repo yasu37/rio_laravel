@@ -15,7 +15,7 @@ use App\Http\Controllers\PageController;
 */
 
 /*トップ */
-Route::get('index', [PageController::class, 'index']);
+Route::get('/', [PageController::class, 'index']);
 /*RIOについて */
 Route::get('about', [PageController::class, 'about']);
 /*メニュー一覧 */

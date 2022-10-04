@@ -3,6 +3,7 @@
 details {
   margin: 1.5rem auto 0;
   width: 80%;
+  max-width: 900px;
 }
 
 summary {
@@ -21,6 +22,10 @@ summary {
 summary::-webkit-details-marker {
   /* Safariで表示されるデフォルトの三角形アイコンを消します */
   display: none;
+}
+
+summary h2 {
+  font-size: 1.8rem;
 }
 
 /* アイコン作成 */
@@ -70,7 +75,7 @@ details .content {
 }
 
 details .content p {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .frame {
@@ -79,18 +84,63 @@ details .content p {
 
 .frame_name {
   padding: 1rem;
-  color: rgba(19, 15, 7, .4);
   text-align: center;
-  font-weight: 600;
 }
 
 .frame_content {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  align-items: center;
+  padding: 1rem 2rem;
   border-top: 1px solid rgba(19, 15, 7, .1);
+}
+
+.content1 {
+  display: flex;
+  width: 100%;
 }
 
 .price {
   margin-left: auto;
+}
+
+.button5 a {
+  width: 16rem;
+  margin-left: 1.5rem;
+  color: #fff;
+  background-color: #4CA89E;
+}
+
+.menu_concept,
+.treatment_flow,
+.frame_name {
+  font-weight: bold;
+}
+
+/*サイトの横幅が600px以下*/
+@media screen and (max-width: 700px) {
+
+  summary h2 {
+    font-size: 1.6rem;
+  }
+
+  details .content {
+    font-size: 1.3rem;
+    padding: 24px 24px;
+  }
+
+  .frame_content {
+    flex-flow: column;
+  }
+
+  .button5 {
+    width: 100%;
+  }
+
+  .button5 a {
+    width: auto;
+    margin-top: 1rem;
+    margin-left: 0;
+    font-size: 1.3rem;
+  }
 }
